@@ -1,0 +1,15 @@
+{
+  "type": "the_beginning_remaster:beginning",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": "the_beginning_remaster:beginning",
+    "biome_source": {
+      "type": "minecraft:vanilla_layered",
+      "seed": 0,
+      "biomes": [
+        "the_beginning_remaster:blazing_hils"
+      ]
+    }
+  }
+}

@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "the_beginning_remaster.the_beginning.client.The_beginningClient"
+      "shadowmaster435.the_beginning.client.The_beginningClient"
     ],
     "main": [
-      "the_beginning_remaster.the_beginning.The_beginning"
+      "shadowmaster435.the_beginning.The_beginning"
     ]
   },
   "mixins": [

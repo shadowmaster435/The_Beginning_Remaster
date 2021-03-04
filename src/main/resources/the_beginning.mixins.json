@@ -1,9 +1,16 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "the_beginning_remaster.the_beginning.mixin",
+  "package": "shadowmaster435.the_beginning.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BuiltinBiomesAccessor",
+    "DimensionInvoker",
+    "DimensionMixin",
+    "ItemRenderMixin",
+    "MultinoiseAccessor",
+    "PlayerEntityMixin",
+    "WorldRendererMixin"
   ],
   "client": [
   ],

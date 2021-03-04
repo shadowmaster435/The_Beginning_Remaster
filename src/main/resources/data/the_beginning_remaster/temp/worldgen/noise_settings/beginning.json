@@ -1,0 +1,59 @@
+{
+  "bedrock_roof_position": -1,
+  "bedrock_floor_position": 0,
+  "sea_level": 58,
+  "disable_mob_generation": true,
+  "structures": {
+    "stronghold": {
+      "distance": 1000000,
+      "count": 0,
+      "spread": 1000000
+    },
+    "structures": {
+      "stronghold" : {
+        "distance" : 1000000,
+        "count": 0,
+        "spread": 1000000
+      },
+      "structures": {
+      }
+    }
+  },
+  "noise": {
+    "top_slide": {
+      "target": -1,
+      "size": 1,
+      "offset": 75
+    },
+    "bottom_slide": {
+      "target": -1,
+      "size": 20,
+      "offset": 50
+    },
+    "sampling": {
+      "xz_scale": 2,
+      "xz_factor": 15,
+      "y_scale": 4,
+      "y_factor": 5
+    },
+    "size_vertical": 1,
+    "size_horizontal": 4,
+    "height": 256,
+    "logical_height": 17,
+    "density_factor": -5,
+    "density_offset": 0.1,
+    "random_density_offset": false,
+    "simplex_surface_noise": false,
+    "island_noise_override": false,
+    "amplified": false
+  },
+  "default_block": {
+    "Name": "the_beginning_remaster:blazing_rock"
+  },
+  "default_fluid": {
+    "Name": "minecraft:lava",
+    "Properties": {
+      "level": 0
+    }
+  }
+}

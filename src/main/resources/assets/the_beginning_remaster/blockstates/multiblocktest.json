@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "formed=true,center=true": {
+      "model": "the_beginning_remaster:block/formedmb"
+
+    },
+    "formed=true,center=false": {
+      "model": "the_beginning_remaster:block/blank"
+    },
+    "formed=false": {
+      "model": "the_beginning_remaster:block/multiblocktest"
+    }
+  }
+}

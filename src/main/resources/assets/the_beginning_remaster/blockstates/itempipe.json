@@ -1,0 +1,136 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "the_beginning_remaster:block/itempipelimb",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall"
+        }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall",
+          "y": 90
+        }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall",
+          "y": 180
+        }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall",
+          "y": 270
+        }
+    },
+    {
+      "when": {
+        "up": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall",
+          "x": 270
+        }
+    },
+    {
+      "when": {
+        "down": "false"
+      },
+      "apply":
+        {
+          "model": "the_beginning_remaster:block/itempipewall",
+          "x": 90
+        }
+    },
+    {
+      "when": {
+        "extract": "true"
+      },
+      "apply":
+      {
+        "model": "the_beginning_remaster:block/blank",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "insert": "true"
+      },
+      "apply":
+      {
+        "model": "the_beginning_remaster:block/blank",
+        "x": 90
+      }
+    }
+  ]
+}
