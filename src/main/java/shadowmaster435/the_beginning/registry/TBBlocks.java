@@ -17,9 +17,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import shadowmaster435.the_beginning.block.*;
 import shadowmaster435.the_beginning.blockentity.*;
+import shadowmaster435.the_beginning.blockentity.renderers.ItemPipeRenderer;
 import shadowmaster435.the_beginning.blockentity.renderers.LightningRender;
 import shadowmaster435.the_beginning.blockentity.renderers.animationtestrender;
 import shadowmaster435.the_beginning.blockentity.renderers.portalrender;
+import shadowmaster435.the_beginning.pipes.ItemPipeEntity;
 
 public class TBBlocks {
     public static final portaltest PORTAL_BLOCK = new portaltest(Block.Settings.of(Material.STONE));
@@ -89,6 +91,7 @@ public class TBBlocks {
         BlockEntityRendererRegistry.INSTANCE.register(TBBlocks.DEMO_BLOCK_ENTITY, animationtestrender::new);
         BlockEntityRendererRegistry.INSTANCE.register(TBBlocks.LIGHTNING_ENTITY, LightningRender::new);
         BlockEntityRendererRegistry.INSTANCE.register(TBBlocks.PORTAL_ENTITY, portalrender::new);
+        BlockEntityRendererRegistry.INSTANCE.register(TBBlocks.ITEM_PIPE_ENTITY, ItemPipeRenderer::new);
 
         // Render Layer
         BlockRenderLayerMap.INSTANCE.putBlock(MOLD_SPORE, RenderLayer.getCutout());

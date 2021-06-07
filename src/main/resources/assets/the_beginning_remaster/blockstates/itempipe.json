@@ -2,7 +2,7 @@
   "multipart": [
     {
       "when": {
-        "north": "true"
+        "north": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb"
@@ -10,7 +10,7 @@
     },
     {
       "when": {
-        "east": "true"
+        "east": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb",
@@ -19,7 +19,7 @@
     },
     {
       "when": {
-        "south": "true"
+        "south": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb",
@@ -28,7 +28,7 @@
     },
     {
       "when": {
-        "west": "true"
+        "west": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb",
@@ -37,7 +37,7 @@
     },
     {
       "when": {
-        "up": "true"
+        "up": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb",
@@ -46,7 +46,7 @@
     },
     {
       "when": {
-        "down": "true"
+        "down": "connected"
       },
       "apply": {
         "model": "the_beginning_remaster:block/itempipelimb",
@@ -55,7 +55,7 @@
     },
     {
       "when": {
-        "north": "false"
+        "north": "none"
       },
       "apply":
         {
@@ -64,7 +64,7 @@
     },
     {
       "when": {
-        "east": "false"
+        "east": "none"
       },
       "apply":
         {
@@ -74,7 +74,7 @@
     },
     {
       "when": {
-        "south": "false"
+        "south": "none"
       },
       "apply":
         {
@@ -84,7 +84,7 @@
     },
     {
       "when": {
-        "west": "false"
+        "west": "none"
       },
       "apply":
         {
@@ -94,7 +94,7 @@
     },
     {
       "when": {
-        "up": "false"
+        "up": "none"
       },
       "apply":
         {
@@ -104,33 +104,13 @@
     },
     {
       "when": {
-        "down": "false"
+        "down": "none"
       },
       "apply":
         {
           "model": "the_beginning_remaster:block/itempipewall",
           "x": 90
         }
-    },
-    {
-      "when": {
-        "extract": "true"
-      },
-      "apply":
-      {
-        "model": "the_beginning_remaster:block/blank",
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "insert": "true"
-      },
-      "apply":
-      {
-        "model": "the_beginning_remaster:block/blank",
-        "x": 90
-      }
     }
   ]
 }
